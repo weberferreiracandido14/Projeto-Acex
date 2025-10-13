@@ -48,7 +48,7 @@ O projeto foi desenvolvido com **HTML5, CSS3 e JavaScript puro**, priorizando de
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/SEU_USUARIO/fresh-food.git
+   git clone https://github.com/weberferreiracandido14/fresh-food.git
 ````
 
 2. **Acesse a pasta do projeto:**
@@ -121,9 +121,8 @@ O design foi construído com **media queries** e **flex/grid layouts** para gara
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por **[Seu Nome Aqui]**
-📧 [contato@freshfood.com.br](mailto:contato@freshfood.com.br)
-🌐 [https://github.com/SEU_USUARIO](https://github.com/SEU_USUARIO)
+Desenvolvido por **[Weber Ferreira]**
+🌐 [https://github.com/weberferreiracandido14](https://github.com/weberferreiracandido14)
 
 ---
 
