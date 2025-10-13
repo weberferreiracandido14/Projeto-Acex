@@ -1,6 +1,6 @@
 # 🥗 Fresh Food – Guia de Alimentação Saudável
 
-O **Fresh Food** é um site responsivo e interativo que apresenta informações sobre **alimentação saudável, dietas equilibradas e dicas de bem-estar**.  
+O **Fresh Food** é um site responsivo e interativo que apresenta informações sobre **alimentação saudável e dicas de bem-estar**.  
 O projeto foi desenvolvido com **HTML5, CSS3 e JavaScript puro**, priorizando design moderno, usabilidade e acessibilidade.
 
 ---
