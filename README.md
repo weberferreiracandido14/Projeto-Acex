@@ -1,10 +1,3 @@
-Perfeito ✅
-Com base nos seus arquivos (`index.html`, `dietas.html`, `style.css` e `script.js`), aqui está um **README.md completo e formatado** para você colocar no seu **repositório GitHub**.
-Ele segue o padrão de projetos web estáticos (HTML/CSS/JS), com seções de descrição, estrutura, funcionalidades e instruções de uso.
-
----
-
-```markdown
 # 🥗 Fresh Food – Guia de Alimentação Saudável
 
 O **Fresh Food** é um site responsivo e interativo que apresenta informações sobre **alimentação saudável, dietas equilibradas e dicas de bem-estar**.  
@@ -148,10 +141,4 @@ Sinta-se livre para usar, modificar e distribuir com os devidos créditos.
 
 ---
 
-```
-
----
-
-Quer que eu adapte esse README para o formato **GitHub Pages** (com link de demonstração e badges de status, por exemplo)?  
-Posso deixar ele pronto para o repositório `README.md` renderizar bonito na página principal.
 ```
