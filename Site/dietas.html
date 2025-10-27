@@ -36,7 +36,7 @@
             <div class="container">
                 <h2>Tipos de Dietas Saudáveis</h2>
                 <div class="diet-cards">
-                    <div class="card">
+                    <div class="card" data-diet="mediterranea">
                         <img src="download.jpg" alt="Dieta Mediterrânea">
                         <div class="card-content">
                             <h3>Dieta Mediterrânea</h3>
@@ -47,9 +47,25 @@
                                 <li>Rica em antioxidantes</li>
                                 <li>Promove longevidade</li>
                             </ul>
+                            <div class="detailed-content" id="content-mediterranea">
+                                <h4>Salmão Assado com Vegetais Mediterrâneos</h4>
+                                <p><strong>Ingredientes:</strong> Salmão, azeite, pimentões coloridos, abobrinha, tomate
+                                    cereja,
+                                    alho, orégano, limão.</p>
+                                <p><strong>Preparo:</strong> Temperar o salmão e os vegetais com azeite, alho, orégano e
+                                    limão.
+                                    Assar até o salmão ficar cozido e os vegetais macios.</p>
+
+                                <h4>Salada Grega com Quinoa</h4>
+                                <p><strong>Ingredientes:</strong> Quinoa cozida, pepino, tomate, cebola roxa, azeitonas,
+                                    queijo
+                                    feta, azeite, vinagre de vinho tinto.</p>
+                                <p><strong>Preparo:</strong> Misturar todos os ingredientes. Temperar com azeite e
+                                    vinagre.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-diet="equilibrada">
                         <img src="dieta-equilibrada.jpg" alt="Dieta Equilibrada">
                         <div class="card-content">
                             <h3>Dieta Equilibrada</h3>
@@ -59,9 +75,25 @@
                                 <li>Fácil de manter</li>
                                 <li>Flexível e sustentável</li>
                             </ul>
+                            <div class="detailed-content" id="content-equilibrada">
+                                <h4>Frango Grelhado com Arroz Integral e Brócolis</h4>
+                                <p><strong>Ingredientes:</strong> Peito de frango, arroz integral, brócolis, azeite,
+                                    sal,
+                                    pimenta.</p>
+                                <p><strong>Preparo:</strong> Grelhar o frango. Cozinhar o arroz integral e brócolis no
+                                    vapor. Servir tudo junto.</p>
+
+                                <h4>Omelete de Vegetais</h4>
+                                <p><strong>Ingredientes:</strong> Ovos, espinafre, cogumelos, pimentão, cebola, azeite,
+                                    sal,
+                                    pimenta.</p>
+                                <p><strong>Preparo:</strong> Refogar os vegetais. Bater os ovos e adicionar aos vegetais
+                                    na
+                                    frigideira. Cozinhar até firmar.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-diet="plant-based">
                         <img src="plant based.jpg" alt="Dieta Plant-Based">
                         <div class="card-content">
                             <h3>Dieta Plant-Based</h3>
@@ -72,51 +104,7 @@
                                 <li>Sustentável ambientalmente</li>
                                 <li>Rica em antioxidantes</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="diet-cards">
-                <div class="card">
-                    <div class="card-content">
-                        <h3>Dieta Mediterrânea</h3>
-                        <h4>Salmão Assado com Vegetais Mediterrâneos</h4>
-                        <p><strong>Ingredientes:</strong> Salmão, azeite, pimentões coloridos, abobrinha, tomate cereja,
-                            alho, orégano, limão.</p>
-                        <p><strong>Preparo:</strong> Temperar o salmão e os vegetais com azeite, alho, orégano e limão.
-                            Assar até o salmão ficar cozido e os vegetais macios.</p>
-
-                        <h4>Salada Grega com Quinoa</h4>
-                        <p><strong>Ingredientes:</strong> Quinoa cozida, pepino, tomate, cebola roxa, azeitonas, queijo
-                            feta, azeite, vinagre de vinho tinto.</p>
-                        <p><strong>Preparo:</strong> Misturar todos os ingredientes. Temperar com azeite e vinagre.</p>
-                    </div>
-                </div>
-
-                <div class="diet-cards">
-                    <div class="card">
-                        <div class="card-content">
-                            <h3>Dieta Equilibrada</h3>
-                            <h4>Salmão Assado com Vegetais Mediterrâneos</h4>
-                            <h4>Frango Grelhado com Arroz Integral e Brócolis</h4>
-                            <p><strong>Ingredientes:</strong> Peito de frango, arroz integral, brócolis, azeite, sal,
-                                pimenta.</p>
-                            <p><strong>Preparo:</strong> Grelhar o frango. Cozinhar o arroz integral e brócolis no
-                                vapor. Servir tudo junto.</p>
-
-                            <h4>Omelete de Vegetais</h4>
-                            <p><strong>Ingredientes:</strong> Ovos, espinafre, cogumelos, pimentão, cebola, azeite, sal,
-                                pimenta.</p>
-                            <p><strong>Preparo:</strong> Refogar os vegetais. Bater os ovos e adicionar aos vegetais na
-                                frigideira. Cozinhar até firmar.</p>
-                        </div>
-                    </div>
-
-                    <div class="diet-cards">
-                        <div class="card">
-                            <div class="card-content">
-                                <h3>Dieta Plant-Based</h3>
+                            <div class="detailed-content" id="content-plant-based">
                                 <h4>Curry de Grão de Bico e Espinafre</h4>
                                 <p><strong>Ingredientes:</strong> Grão de bico, espinafre, leite de coco, pasta de
                                     curry, cebola, alho, gengibre, arroz basmati.</p>
@@ -131,8 +119,10 @@
                                     Decorar com sementes de chia e frutas vermelhas.</p>
                             </div>
                         </div>
-
-
+                    </div> 
+                </div>
+            </div>
+            
         </section>
     </main>
 
